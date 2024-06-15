@@ -34,7 +34,7 @@ original_image_metadata = extract_metadata('original_image.jpg')
 
 
 # Match Meta Data now
-def find_best_match(original_metadata, dark_frames_metadata):
+def find_best_match(original_metadata, dark_frames_metadata):  # Will have to input a dict of dark frames.
     best_match = None
     min_difference = float('inf')
 
